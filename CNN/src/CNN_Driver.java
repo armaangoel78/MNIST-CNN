@@ -23,7 +23,7 @@ public class CNN_Driver {
 	private Neuron[] neuronsTwo;
 	private Synapse[][][] synapsesTwo;
 	
-	private final double LEARNING_RATE  = .01; 
+	private final double LEARNING_RATE  = .1; 
 	private double[] errors;
 	
 	private double[] fc2_derivs;
